@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background-color: #ffc300;
+  height: 160vh;
+  background: cover;
+};
+img.logoImg{
+  padding: 0px;
+};
+.card-content{
+  text: orangered;
+}
+ItemListContainer{
+  padding: 3px;
+}
+.cardDetail{
+
+  margin: 50px;
+
+}
+.card-header{
+  box-shadow: none;
+}
+.cartImg{
+  width: 20%;
+  padding-right: 0%;
+  margin-left: 0%;
+}
+div.NavCont.container{
+  margin: 0.5px;
+  padding: 0%;
+}
+.categoriesNav{
+  margin-left: 600px;
+
+}
+div.row{
+ padding-top: 50px;;
+ margin-left: 30px;
+}
+.card{
+  padding: 5px;
+  margin: 10px;
+};
+div.itemDetail.row{
+
+}
