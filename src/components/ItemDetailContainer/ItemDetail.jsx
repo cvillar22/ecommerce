@@ -16,8 +16,13 @@ const ItemDetail = ({item}) => {
  
 
   const handleSend = () => {
-    const newItemFiltered = {...item, quantity: count};
-    
+    //const newItemFiltered = {...item, quantity: count};
+      if(stock > 0){
+          let newItem = {
+              name: item.title,
+              price: item.price,
+              quantity: count,
+          }
   };
 
   return (
@@ -58,6 +63,6 @@ const ItemDetail = ({item}) => {
     </ReactBootstrap.Row>
     </ReactBootstrap.Container>
  );
- };
+ }
 
  export default ItemDetail;

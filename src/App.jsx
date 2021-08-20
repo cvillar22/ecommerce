@@ -19,10 +19,10 @@ function App() {
       <div className="App">
         <NavBar />
         <Switch>
-              {/* <Route exact path={["/"]} component={ItemListContainer} /> */}
+              <Route exact path={["/"]} component={ItemListContainer} />
               <Route exact path={["/", "/category/:id"]} component={ItemListContainer} />
               <Route exact path="/product/:id" component={ItemDetailContainer} />
-              <Route path="/cart" component={Cart}/>
+              {/* <Route path="/cart" component={Cart}/> */}
         </Switch>
      </div>
      </CartProvider>
